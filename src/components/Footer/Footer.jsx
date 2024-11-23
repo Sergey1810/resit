@@ -26,11 +26,18 @@ const Footer = () => {
 
                 </div>
                 <div className='footer__column2'>
-                    <div className='footer__column-string'> <BsTelephone className='footer__icons' /><span> 8 952 55 69 379</span></div>
-                    <div className='footer__column-string'> <GiRotaryPhone className='footer__icons' /><span> 8 (47375) 4 55 69</span></div>
+                    <div className='footer__column-string'>Пн - Чт: 8:00 - 18:00 </div>
+                    <div className='footer__column-string'>Пт: 8:00 - 17:00</div>
+                    <div className='footer__column-string'>Сб: 8:00 - 14:00</div>
+                    <div className='footer__column-string'>Сб: прием и выдача техники</div>
+                </div>
+                <div className='footer__column2'>
+                    <div className='footer__column-string'> <BsTelephone className='footer__icons' /><a href='tel:+79525569379' className='footer__link'> 8 952 55 69 379</a></div>
+                    <div className='footer__column-string'> <GiRotaryPhone className='footer__icons' /><a href='tel:+74737545569' className='footer__link'> 8 (47375) 4 55 69</a></div>
                     <div className='footer__column-string'> <SiMaildotru className='footer__icons' /><span>it-resurs@internet.ru</span></div>
                     <div className='footer__column-string'><CiLocationOn className='footer__icons' /><span> г. Острогожск, ул. Нарского 3</span></div>
                 </div>
+                
             </div>
             <div className='footer__copyright'>
                 Alt System {new Date().getFullYear()} &copy;

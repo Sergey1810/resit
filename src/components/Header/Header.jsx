@@ -12,7 +12,7 @@ const Header = () => {
                 <Navbar />
             </div>
             <div className='header__col2'>
-                <p className='header__tel'>8 952 556 93 79</p>
+                <a className='header__tel' a href='tel:+74737545569'>8 952 556 93 79</a>
                 <p className='header__tel2'>На связи с 8:00 до 18:00</p>
             </div>
 

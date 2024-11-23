@@ -37,19 +37,19 @@
     font-weight: 500;
     line-height: 17px;
     letter-spacing: 5%;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid var(--color-orang);
     cursor: pointer;
 }
 
 .price__list-items_active {
-    border: 2px solid #ffffff;
+    border: 2px solid var(--color-orang);
     border-bottom: none;
 }
 
 .price__table {
     background: #636770;
     min-width: 99%;
-    border: 2px solid #ffffff;
+    border: 2px solid var(--color-orang);
     border-top: none;
     display: flex;
     flex-direction: column;
