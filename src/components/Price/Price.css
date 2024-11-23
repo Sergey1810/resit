@@ -1,0 +1,115 @@
+.price {
+    padding-top: 115px;
+}
+
+.price__title {
+    /* Heading/Two */
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.price__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+}
+
+.price__list-items {
+    padding: 0;
+    margin: 0;
+    padding: 5px 10px;
+    background: #636770;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 5%;
+    border-bottom: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.price__list-items_active {
+    border: 2px solid #ffffff;
+    border-bottom: none;
+}
+
+.price__table {
+    background: #636770;
+    min-width: 99%;
+    border: 2px solid #ffffff;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    min-height: 540px;
+}
+
+.price__table-header{
+    display: flex;
+}
+.price__table-info{
+    display: flex;
+    color: #ffffff;
+}
+
+.price__table-name {
+    color: rgb(255, 255, 255);
+    min-width: 80%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 5%;
+    text-align: center;
+    border: 1px solid grey;
+    border-top:none ;
+}
+
+.price__table-name-item{
+    color: rgb(255, 255, 255);
+    min-width: 80%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 5%;
+    text-align: left;
+    border: 1px solid grey;
+    border-top:none ;
+}
+
+.price__table-name-items{
+    padding-left: 50px;
+}
+
+.price__table-price {
+    color: rgb(255, 255, 255);
+    min-width: 19%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 5%;
+    text-align: center;
+    border: 1px solid grey;
+    border-right: none;
+}
+
+.price__table-price-item{
+    color: rgb(255, 255, 255);
+    min-width: 19%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 5%;
+    text-align: center;
+    border: 1px solid grey;
+    border-right: none;
+}

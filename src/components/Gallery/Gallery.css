@@ -1,0 +1,52 @@
+.gallery {
+    margin-top: 154px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+
+.gallery__header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery__header-line {
+    border: 2px solid #636770;
+    margin-top: 20px;
+    min-width: 203px;
+    max-height: 0px;
+}
+
+.gallery__header-title {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    padding: 0 190px;
+}
+
+.gallery__grid{
+    margin-top: 164px;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    row-gap: 68px;
+    column-gap: 56px;
+}
+
+.gallery__grid-item{
+    box-sizing: border-box;
+    min-width: 350px;
+    min-height: 350px;
+/* оранжевый */
+border: 3px solid rgb(255, 122, 0);
+border-radius: 10px;
+
+background: rgba(196, 196, 196, 0);
+}

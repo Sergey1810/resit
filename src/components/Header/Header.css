@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    background-image: url('../../images/Resurs\ логотип\ 500x500\ \ пикс.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 80px;
+    padding-top: 35px;
+}
+
+.header__col1 {
+    display: flex;
+    gap: 50px;
+}
+
+.header__col2 {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__tel {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 5%;
+    text-align: left;
+}
+
+.header__tel2 {
+    padding: 0;
+    margin: 0;
+    color: #636770;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 5%;
+    text-align: right;
+}
+
+@media screen and (max-width:900px){
+    .header{
+       
+    }
+    .header__logo{
+        width: 70px;
+        height: 60px;
+        padding: 10px;
+    }
+    .header__col2{
+        display: none;
+    }
+    .header__col1{
+        min-width: 100%;
+        gap: none;
+        justify-content: space-between;
+    }
+}

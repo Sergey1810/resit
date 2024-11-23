@@ -1,0 +1,71 @@
+.home {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-family: 'Lunasima';
+}
+
+.home__container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.home__gear1 {
+    position: absolute;
+    left: -210px;
+    top: 500px;
+    color: #ffffff;
+    fill: #ffffff;
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+    opacity: 0.4;
+    animation: circle 16s linear;
+    animation-iteration-count: infinite;
+}
+
+.home__gear2 {
+    position: absolute;
+    right: 810px;
+    top: 110px;
+    color: #ffffff;
+    fill: #ffffff;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    opacity: 0.4;
+    /* animation: circles 16s linear;
+    animation-iteration-count: infinite; */
+}
+
+.home__gear3 {
+  position: absolute;
+  right: 310px;
+  top: 210px;
+  color: #ffffff;
+  fill: #ffffff;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+  opacity: 0.4;
+  /* animation: circles 16s linear;
+  animation-iteration-count: infinite; */
+}
+
+
+@keyframes circle {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes circles {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
