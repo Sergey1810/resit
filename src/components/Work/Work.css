@@ -1,4 +1,6 @@
 .work {
+  max-width: 1280px;
+  margin: 0 auto;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -13,7 +15,7 @@
 }
 
 .work__header-line {
-    border: 2px solid #636770;
+    border: 2px solid rgb(255, 122, 0);
     margin-top: 20px;
     min-width: 203px;
     max-height: 0px;
@@ -80,7 +82,7 @@
 }
 
 .work__grid-item-info-number {
-    color: #636770;
+    color: rgb(255, 122, 0);
     font-size: 60px;
     font-weight: 400;
     line-height: 73px;

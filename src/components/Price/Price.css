@@ -1,5 +1,7 @@
 .price {
     padding-top: 115px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .price__title {
