@@ -15,12 +15,12 @@ import gear1 from '../../images/иконка шесеренка 2.svg'
 const Home = () => {
     return (
         <div className='home'>
-              
+{/*               
          <Gear className='home__gear1' />
          <Gear className='home__gear2' />
          <Gear className='home__gear3' />
       
-     
+      */}
                 
             
             <div className='home__container'>

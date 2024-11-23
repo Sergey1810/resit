@@ -13,8 +13,8 @@ const Footer = () => {
                 <FaVk className='footer__icons' /> <FaSquareWhatsapp className='footer__icons'/> <SiMaildotru className='footer__icons'/>
                 </div>
                 <div className='footer__column'>
-               <div className='footer__column-string'> <FaSquarePhone className='footer__icons'/><span> +7(999)999-99-99</span></div> 
-               <div className='footer__column-string'><CiLocationOn className='footer__icons' /><span> г.Острогожск, ул.Нарского, д.3а</span></div>
+               <div className='footer__column-string'> <FaSquarePhone className='footer__icons'/><span> 8 952 556 93 79</span></div> 
+               <div className='footer__column-string'><CiLocationOn className='footer__icons' /><span> г.Острогожск, ул.Нарского, д.3</span></div>
                 </div>
             </div>
             <div className='footer__copyright'>
