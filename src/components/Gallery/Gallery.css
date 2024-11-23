@@ -15,7 +15,7 @@
 }
 
 .gallery__header-line {
-    border: 2px solid #636770;
+    border: 2px solid rgb(255, 122, 0);
     margin-top: 20px;
     min-width: 203px;
     max-height: 0px;

@@ -9,7 +9,7 @@ const Navbar = () => {
       <ul className='navbar'>
         <li className='navbar__link'>Услуги</li>
         <li className='navbar__link'>Цены</li>
-        <li className='navbar__link'>Портфолио</li>
+        <li className='navbar__link'>Работы</li>
         <li className='navbar__link'>Контакты</li>
         {/* <HashLink to="/home#price">to</HashLink> */}
 

@@ -21,9 +21,27 @@
     line-height: 30px;
     letter-spacing: 5%;
     text-align: left;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
+.footer__column2{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 5%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__column-social{
+    display: flex;
+    gap: 25px;
+}
 .footer__copyright {
     margin-top: 35px;
     color: rgb(255, 255, 255);
@@ -45,4 +63,14 @@
 .footer__icons{
     width: 30px;
     height: 30px;
+    transition: fill .3s linear;
+}
+
+.footer__icons:hover{
+    fill:rgb(255, 122, 0);
+}
+
+.footer__link{
+    
+    color: inherit;
 }
