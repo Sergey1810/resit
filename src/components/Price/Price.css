@@ -20,7 +20,6 @@
     padding: 0;
     list-style: none;
     display: flex;
-
 }
 
 .price__list-items {
@@ -56,10 +55,11 @@
     min-height: 540px;
 }
 
-.price__table-header{
+.price__table-header {
     display: flex;
 }
-.price__table-info{
+
+.price__table-info {
     display: flex;
     color: #ffffff;
 }
@@ -73,10 +73,10 @@
     letter-spacing: 5%;
     text-align: center;
     border: 1px solid grey;
-    border-top:none ;
+    border-top: none;
 }
 
-.price__table-name-item{
+.price__table-name-item {
     color: rgb(255, 255, 255);
     min-width: 80%;
     font-size: 16px;
@@ -85,10 +85,10 @@
     letter-spacing: 5%;
     text-align: left;
     border: 1px solid grey;
-    border-top:none ;
+    border-top: none;
 }
 
-.price__table-name-items{
+.price__table-name-items {
     padding-left: 50px;
 }
 
@@ -104,7 +104,7 @@
     border-right: none;
 }
 
-.price__table-price-item{
+.price__table-price-item {
     color: rgb(255, 255, 255);
     min-width: 19%;
     font-size: 16px;
@@ -115,3 +115,19 @@
     border: 1px solid grey;
     border-right: none;
 }
+
+@media screen and (max-width:940px){
+    .price__list{
+        flex-direction: column;
+    }
+    .price__list-items_active{
+        background-color: var(--color-orang);
+        color: #000000;
+    }
+    .price{
+        margin: 0 20px;
+    }
+    .price__list-items{
+        min-height: 40px;
+    }
+ }

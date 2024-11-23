@@ -68,10 +68,19 @@
 }
 
 .footer__icons:hover{
-    fill:rgb(255, 122, 0);
+    fill:var(--color-orang);
 }
 
 .footer__link{
     text-decoration: none;
     color: inherit;
 }
+
+@media screen and (max-width:900px){
+    .footer__columns{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+ }
