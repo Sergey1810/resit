@@ -6,6 +6,16 @@
     text-align: center;
 }
 
+.problem__header{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .problem__title {
     margin: 0;
     padding: 0;

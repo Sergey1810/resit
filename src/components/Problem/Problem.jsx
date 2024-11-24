@@ -87,7 +87,7 @@ const Problem = () => {
 
     return (
         <section className='problem'>
-            <h2>Часто задаваемые вопросы</h2>
+            <h2 className='problem__header'>Часто задаваемые вопросы</h2>
             <div className='problem__scrollbar' ref={listRef}>
 
                 {
