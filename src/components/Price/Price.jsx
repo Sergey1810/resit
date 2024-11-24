@@ -225,7 +225,7 @@ const Price = () => {
                     <li className={`price__list-items ${one ? "price__list-items_active" : null}`} onClick={onPriceClick1} id={1}>Техническое обслуживание системного блока</li>
 
                     <div className={` price__mobile ${one ? "price__table_mobile" : null}`}>
-                        <div className='price__table-header'>
+                        <div className={` price__table-header ${one ? 'price__table-header-mobile': null}`}>
                             <div className='price__table-name'>
                                 <p>Наименование работ</p>
                             </div>
@@ -245,7 +245,7 @@ const Price = () => {
 
                     <li className={`price__list-items ${two ? "price__list-items_active" : null}`} onClick={onPriceClick2} id={2}>Техническое обслуживание ноутбука</li>
                     <div className={` price__mobile ${two ? "price__table_mobile" : null}`}>
-                        <div className='price__table-header'>
+                        <div className={` price__table-header ${two ? 'price__table-header-mobile': null}`}>
                             <div className='price__table-name'>
                                 <p>Наименование работ</p>
                             </div>
@@ -264,7 +264,7 @@ const Price = () => {
                     </div>
                     <li className={`price__list-items ${three ? "price__list-items_active" : null}`} onClick={onPriceClick3} id={3}>Работа с программным обеспечением</li>
                     <div className={` price__mobile ${three ? "price__table_mobile" : null}`}>
-                        <div className='price__table-header'>
+                        <div className={` price__table-header ${three ? 'price__table-header-mobile': null}`}>
                             <div className='price__table-name'>
                                 <p>Наименование работ</p>
                             </div>
@@ -283,7 +283,7 @@ const Price = () => {
                     </div>
                     <li className={`price__list-items ${four ? "price__list-items_active" : null}`} onClick={onPriceClick4} id={4}>Обслуживание на выезде</li>
                     <div className={` price__mobile ${four ? "price__table_mobile" : null}`}>
-                        <div className='price__table-header'>
+                        <div className={` price__table-header ${four ? 'price__table-header-mobile': null}`}>
                             <div className='price__table-name'>
                                 <p>Наименование работ</p>
                             </div>
@@ -302,7 +302,7 @@ const Price = () => {
                     </div>
                     <li className={`price__list-items ${five ? "price__list-items_active" : null}`} onClick={onPriceClick5} id={5}>Обслуживание принтеров и МФУ</li>
                     <div className={`price__mobile ${five ? "price__table_mobile" : null}`}>
-                        <div className='price__table-header'>
+                        <div className={` price__table-header ${five ? 'price__table-header-mobile': null}`}>
                             <div className='price__table-name'>
                                 <p>Наименование работ</p>
                             </div>
@@ -321,7 +321,7 @@ const Price = () => {
                     </div>
                     <li className={`price__list-items ${six ? "price__list-items_active" : null}`} onClick={onPriceClick6} id={6}>Компьютерные услуги</li>
                     <div className={` price__mobile ${six ? "price__table_mobile" : null}`}>
-                        <div className='price__table-header'>
+                        <div className={` price__table-header ${six ? 'price__table-header-mobile': null}`}>
                             <div className='price__table-name'>
                                 <p>Наименование работ</p>
                             </div>
@@ -340,7 +340,7 @@ const Price = () => {
                     </div>
                     <li className={`price__list-items ${seven ? "price__list-items_active" : null}`} onClick={onPriceClick7} id={7}>Ремонт прочей техники</li>
                     <div className={`price__mobile ${seven ? "price__table_mobile" : null}`}>
-                        <div className='price__table-header'>
+                        <div className={` price__table-header ${seven ? 'price__table-header-mobile': null}`}>
                             <div className='price__table-name'>
                                 <p>Наименование работ</p>
                             </div>
@@ -359,7 +359,7 @@ const Price = () => {
                     </div>
                     <li className={`price__list-items ${eight ? "price__list-items_active" : null}`} onClick={onPriceClick8} id={8}>Заправка и востановление картриджей</li>
                     <div className={`price__mobile ${eight ? "price__table_mobile" : null}`}>
-                        <div className='price__table-header'>
+                        <div className={` price__table-header ${eight ? 'price__table-header-mobile': null}`}>
                             <div className='price__table-name'>
                                 <p>Наименование работ</p>
                             </div>

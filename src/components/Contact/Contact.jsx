@@ -13,9 +13,8 @@ const Contact = () => {
 
                 <div className='contact__info'>
                     <div className='contact__info-col1'>
-                        <h2 className='contact__title'>Сервисный центр в Острогожске</h2>
-                        <h3 className='contact__subtitle'>Номер для связи со специалистами</h3>
-                        <p className='contact__text'>+7-952-55-69-379</p>
+                        <h2 className='contact__title'>Компьютерная мастерская </h2>
+                        <p className='contact__text'>8 952 55 69 379</p>
                         <h3 className='contact__subtitle'>Время работы Компьютерной мастерской</h3>
                         <p className='contact__text'>пн-чт 08:00-18:00</p>
                         <p className='contact__text'>пн 08:00-17:00</p>
