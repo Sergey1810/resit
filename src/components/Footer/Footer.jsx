@@ -12,7 +12,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <footer className='footer'>
             <div className='footer__columns'>
                 <div className='footer__column'>
                     <div className='footer__column-social'>
@@ -42,7 +42,7 @@ const Footer = () => {
             <div className='footer__copyright'>
                 Alt System {new Date().getFullYear()} &copy;
             </div>
-        </div>
+        </footer>
     )
 }
 

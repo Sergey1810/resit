@@ -3,7 +3,7 @@ import './Work.css'
 
 const Work = () => {
     return (
-        <div className='work'>
+        <section className='work'>
             <div className='work__header'>
                 <div className='work__header-line'></div>
                 <h2 className='work__header-title'>КАК МЫ РАБОТАЕМ</h2>
@@ -25,7 +25,7 @@ const Work = () => {
                 <div className="work__grid-item work__grid-item_item5">
                    <span className='work__grid-item-info-number'>5</span> <p className='work__grid-item-info'>Приём работы заказчиком и окончательный расчёт</p></div>
             </div>
-        </div>
+        </section>
     )
 }
 

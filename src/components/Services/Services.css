@@ -133,6 +133,11 @@
 
 
  @media screen and (max-width:560px){
+    .service__title{
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 20px;
+    }
     .service__col2-service{
         display: none;
         width: 90%;

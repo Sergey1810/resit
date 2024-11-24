@@ -1,14 +1,14 @@
-.contact{
+.contact {
     background-color: lightgray;
-    color:#000000;
-    margin-top: 150px;
-    
+    color: #000000;
+    margin-top: 60px;
+
 }
 
-.contact__container{
+.contact__container {
     max-width: 1280px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 60px;
     padding-bottom: 120px;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@
     border-bottom: 2px solid var(--color-orang);
     max-width: 300px;
     margin-bottom: 100px;
-  
+
 }
 
 .contact__header-title {
@@ -31,37 +31,33 @@
     text-transform: uppercase;
 }
 
-.contact__info{
+.contact__info {
     display: flex;
-   gap: 30px;
+    gap: 30px;
 
 }
 
-.contact__info-col1{
+.contact__info-col1 {}
 
-
-
-}
-
-.contact__info-col2{
+.contact__info-col2 {
     border-radius: 50px;
 }
 
 
-.contact__map{
+.contact__map {
     width: 700px;
-    height: 441px; 
+    height: 441px;
     border-radius: 20px;
 }
 
-.contact__title{
+.contact__title {
     margin: 0;
     padding: 0;
     font-size: 32px;
     text-align: left;
 }
 
-.contact__subtitle{
+.contact__subtitle {
     margin: 0;
     padding: 0;
     font-size: 18px;
@@ -71,11 +67,59 @@
     margin-top: 35px;
 }
 
-.contact__text{
+.contact__text {
     margin: 0;
     padding: 0;
     text-align: left;
     font-size: 18px;
     margin-top: 15px;
     font-weight: 600;
+}
+
+@media screen and (max-width:1000px) {
+
+    .contact__map {
+        width: 500px;
+        height: 341px;
+        border-radius: 20px;
+    }
+
+    .contact__info {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .contact__map {
+        width: 300px;
+        height: 241px;
+        border-radius: 20px;
+    }
+
+    .contact__info {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    .contact__row1{
+        margin-bottom: 20px;
+    }
+    .contact__header-title {
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .contact__title{
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .contact__subtitle{
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

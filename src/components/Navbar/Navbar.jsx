@@ -11,7 +11,7 @@ const Navbar = () => {
         <li className='navbar__link'><Link to='#service' className='navbar__link-items'>Услуги</Link></li>
         <li className='navbar__link'><Link to='#price' className='navbar__link-items'>Цены</Link></li>
         <li className='navbar__link'><Link to='#gallery' className='navbar__link-items'>Работы</Link></li>
-        <li className='navbar__link'><Link to='/contact' className='navbar__link-items'>Контакты</Link></li>
+        <li className='navbar__link'><Link to='#contact' className='navbar__link-items'>Контакты</Link></li>
         {/* <HashLink to="/home#price">to</HashLink> */}
 
       </ul>

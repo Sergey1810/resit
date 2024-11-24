@@ -54,7 +54,6 @@
 
 .problem__scrollbar {
     z-index: 1;
-
     display: flex;
     gap: 40px;
     overflow-x: auto;
@@ -108,7 +107,7 @@
     font-size: 50px;
 }
 
-@media screen and (max-width:940px){
+@media screen and (max-width:1040px){
     .problem__scrollbar-item{
         width: 200px;
         height: 250px;
@@ -122,19 +121,36 @@
         padding-top: 10px;
         font-size: 24px;
         line-height: 26px;
+      
     }
 
     .problem__header{
-        min-width: 100%;
+        max-width: 100%;
         justify-content: space-between;
         margin: 0 20px;
       }
       .problem__header-line {
-        min-width: 23%;
+        min-width: 20%;
       }
       .problem__header-title{
         padding: 0 10%;
         font-size: 24px;
         line-height: 26px;
       }
+}
+
+@media screen and (max-width:600px){
+    .problem__title{
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .problem__header-line {
+        min-width: 10%;
+      }
+      .problem__scrollbar{
+        margin: 0 10px;
+      }
+
 }

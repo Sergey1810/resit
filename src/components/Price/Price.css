@@ -1,5 +1,5 @@
 .price {
-    padding-top: 115px;
+    padding-top: 60px;
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
@@ -8,7 +8,6 @@
 }
 
 .price__title {
-    /* Heading/Two */
     color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: 400;
@@ -121,10 +120,11 @@
     border-right: none;
 }
 
-.price__table_mobile{
+.price__table_mobile {
     display: none;
 }
-.price__mobile{
+
+.price__mobile {
     display: none;
 
 }
@@ -135,26 +135,30 @@
     margin-bottom: 100px;
 }
 
-@media screen and (max-width:940px){
-    .price__list{
+@media screen and (max-width:940px) {
+    .price__list {
         flex-direction: column;
     }
-    .price__list-items_active{
+
+    .price__list-items_active {
         background-color: var(--color-orang);
         color: #000000;
     }
-    .price{
+
+    .price {
         margin: 0 20px;
     }
-    .price__list-items{
+
+    .price__list-items {
         min-height: 40px;
-        border:2px solid var(--color-orang) ;
+        border: 2px solid var(--color-orang);
     }
 
-    .price__table{
+    .price__table {
         display: none;
     }
-    .price__table_mobile{
+
+    .price__table_mobile {
         background: #000000;
         min-width: 99%;
         border: 2px solid var(--color-orang);
@@ -163,13 +167,23 @@
         flex-direction: column;
         min-height: 540px;
     }
-    .price__table-name-items{
+
+    .price__table-name-items {
         font-size: 14px;
         line-height: 15px;
         padding-left: 20px;
         max-width: 90%;
     }
-    .price__table-name-item{
+
+    .price__table-name-item {
         max-width: 80%;
     }
- }
+}
+
+@media screen and (max-width:640px) {
+    .price__title {
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

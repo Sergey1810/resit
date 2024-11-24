@@ -4,7 +4,7 @@ import logo from "../../images/glav1.png"
 
 const Baner = () => {
     return (
-        <div className='baner'>
+        <section className='baner'>
             <div className='baner__container'>
             <div className='baner__col'>
                 <h1 className='baner__col-title'>IT - Ресурс</h1>
@@ -21,7 +21,7 @@ const Baner = () => {
             <img src={logo} alt="лого" className='baner__image-img'/>
             </div> */}
 </div>
-        </div>
+        </section>
     )
 }
 

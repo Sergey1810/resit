@@ -26,6 +26,7 @@ const Home = () => {
             
             <div className='home__container'>
                 <Header/>
+                <main>
                 <Baner/>
                 <Work/>
                 <Services/>
@@ -34,6 +35,8 @@ const Home = () => {
                 <Price/>
                 <Contact/>
                 <Problem/>
+                </main>
+             
                 <Footer/>
             </div>
         </div>
