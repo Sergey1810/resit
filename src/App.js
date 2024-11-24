@@ -6,13 +6,14 @@ import Contact from './pages/Contact/Contact';
 function App() {
   return (
     <div >
-      <Routes>
+      <Home/>
+      {/* <Routes>
         <Route path='/' element={ <Home/>}/>
         <Route path='/contact' element={ <Contact/>}/>
 
        
        
-      </Routes>
+      </Routes> */}
      
     </div>
   );
