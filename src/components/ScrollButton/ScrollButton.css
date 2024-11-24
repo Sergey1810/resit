@@ -1,0 +1,21 @@
+.scrollbtn {
+    position: fixed;
+    width: 100%;
+    left: 90%;
+    bottom: 100px;
+    height: 40px;
+    font-size: 6rem;
+    z-index: 1;
+    cursor: pointer;
+    color: grey;
+    transition: color .3s linear;
+}
+.scrollbtn:hover{
+    color: var(--color-orang);
+}
+
+@media screen and (max-width:600px) {
+    .scrollbtn {
+        font-size: 3rem;
+    }
+}

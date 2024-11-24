@@ -98,7 +98,7 @@ const Problem = () => {
 
                 {
                     problem.map(item => <div key={item.id} className='problem__scrollbar-item'>
-                        <h3 className='problem__title'>{item.title}</h3>
+                        <p className='problem__title'>{item.title}</p>
                         <p className='problem__lable'>{item.lable}</p>
                     </div>)
                 }

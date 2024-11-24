@@ -11,6 +11,7 @@ import Gallery from '../../components/Gallery/Gallery'
 import Problem from '../../components/Problem/Problem'
 import { ReactComponent as Gear }   from '../../images/иконки шестеренка 1.svg'
 import Contact from '../../components/Contact/Contact'
+import ScrollButton from '../../components/ScrollButton/ScrollButton'
 
 
 const Home = () => {
@@ -36,6 +37,7 @@ const Home = () => {
                 <Contact/>
                 <Problem/>
                 </main>
+                <ScrollButton/>
              
                 <Footer/>
             </div>
