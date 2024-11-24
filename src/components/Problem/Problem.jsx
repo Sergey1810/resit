@@ -87,7 +87,13 @@ const Problem = () => {
 
     return (
         <section className='problem'>
-            <h2 className='problem__header'>Часто задаваемые вопросы</h2>
+            <div className='problem__header'>
+                <div className='problem__header-line'></div>
+                <h2 className='problem__header-title'>Часто задаваемые вопросы</h2>
+                <div className='problem__header-line'></div>
+            </div>
+
+           
             <div className='problem__scrollbar' ref={listRef}>
 
                 {
@@ -100,20 +106,20 @@ const Problem = () => {
 
             </div>
             <button
-            className='problem__leftBtn'
+                className='problem__leftBtn'
                 type="button"
                 disabled={!canScrollLeft}
                 onClick={() => scrollContainerBy(-500)}
             >
-              <FaAngleLeft/>
+                <FaAngleLeft />
             </button>
             <button
-            className='problem__rightBtn'
+                className='problem__rightBtn'
                 type="button"
                 disabled={!canScrollRight}
                 onClick={() => scrollContainerBy(500)}
             >
-              <FaAngleRight/>
+                <FaAngleRight />
             </button>
             {/* <button onClick={() => scroll(-400)}>LEFT</button>
             <button onClick={() => scroll(400)}>RIGHT</button> */}

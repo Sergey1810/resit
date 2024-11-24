@@ -55,7 +55,7 @@ const Gallery = () => {
                     <div className='gallery__button-right' onClick={goToBackPicture}>
                         <FaAngleRight />
                     </div>
-                    <p className='gallery__grid-item-title'>Пайка</p>
+                    <p className='gallery__grid-item-title'>Ремонт телефонов</p>
 
                 </div>
                 <div className="gallery__grid-item">

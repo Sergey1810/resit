@@ -10,6 +10,7 @@ import Work from '../../components/Work/Work'
 import Gallery from '../../components/Gallery/Gallery'
 import Problem from '../../components/Problem/Problem'
 import { ReactComponent as Gear }   from '../../images/иконки шестеренка 1.svg'
+import Contact from '../../components/Contact/Contact'
 
 
 const Home = () => {
@@ -28,9 +29,10 @@ const Home = () => {
                 <Baner/>
                 <Work/>
                 <Services/>
-                <About/>
+                {/* <About/> */}
                 <Gallery/>
                 <Price/>
+                <Contact/>
                 <Problem/>
                 <Footer/>
             </div>

@@ -2,6 +2,9 @@
     padding-top: 115px;
     max-width: 1280px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .price__title {
@@ -124,6 +127,12 @@
 .price__mobile{
     display: none;
 
+}
+
+.price__row1 {
+    border-bottom: 2px solid var(--color-orang);
+    max-width: 300px;
+    margin-bottom: 100px;
 }
 
 @media screen and (max-width:940px){

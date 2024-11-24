@@ -216,7 +216,10 @@ const Price = () => {
     //  }}
     return (
         <section className='price' id = 'price'>
-            <h2 className='price__title'>ПРАЙС-ЛИСТ НА УСЛУГИ</h2>
+            <div className='price__row1'>
+            <h2 className='price__title'>ЦЕНЫ НА УСЛУГИ</h2>
+            </div>
+           
             <div>
                 <ul className='price__list'>
                     <li className={`price__list-items ${one ? "price__list-items_active" : null}`} onClick={onPriceClick1} id={1}>Техническое обслуживание системного блока</li>

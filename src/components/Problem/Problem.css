@@ -1,12 +1,13 @@
 .problem {
 
     max-width: 1280px;
-    margin: 100px auto;
+    margin: 60px auto;
+    margin-top: 60px;
     position: relative;
     text-align: center;
 }
 
-.problem__header{
+.problem__header-title{
     color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: 400;
@@ -14,6 +15,20 @@
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    padding: 0 190px;
+}
+.problem__header{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.problem__header-line{
+    border: 2px solid var(--color-orang);
+    margin-top: 20px;
+    min-width: 203px;
+    max-height: 0px;
 }
 
 .problem__title {
@@ -108,4 +123,18 @@
         font-size: 24px;
         line-height: 26px;
     }
+
+    .problem__header{
+        min-width: 100%;
+        justify-content: space-between;
+        margin: 0 20px;
+      }
+      .problem__header-line {
+        min-width: 23%;
+      }
+      .problem__header-title{
+        padding: 0 10%;
+        font-size: 24px;
+        line-height: 26px;
+      }
 }
