@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resit/static/css/main.f307e7c2.css",
-    "main.js": "/resit/static/js/main.f9174447.js",
+    "main.css": "/resit/static/css/main.76aab1e9.css",
+    "main.js": "/resit/static/js/main.980e6103.js",
     "static/js/453.7aa1f57f.chunk.js": "/resit/static/js/453.7aa1f57f.chunk.js",
     "static/media/glav1.png": "/resit/static/media/glav1.7aa877defd944cfbe252.png",
     "static/media/3.png": "/resit/static/media/3.85ce2cc8963446a5a90f.png",
@@ -10,12 +10,12 @@
     "static/media/Resurs логотип 500x500  пикс (1).png": "/resit/static/media/Resurs логотип 500x500  пикс (1).591cebb626778f4aed1a.png",
     "static/media/иконки шестеренка 1.svg": "/resit/static/media/иконки шестеренка 1.56c53c06c89077fc1484cbe5f42f7143.svg",
     "index.html": "/resit/index.html",
-    "main.f307e7c2.css.map": "/resit/static/css/main.f307e7c2.css.map",
-    "main.f9174447.js.map": "/resit/static/js/main.f9174447.js.map",
+    "main.76aab1e9.css.map": "/resit/static/css/main.76aab1e9.css.map",
+    "main.980e6103.js.map": "/resit/static/js/main.980e6103.js.map",
     "453.7aa1f57f.chunk.js.map": "/resit/static/js/453.7aa1f57f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f307e7c2.css",
-    "static/js/main.f9174447.js"
+    "static/css/main.76aab1e9.css",
+    "static/js/main.980e6103.js"
   ]
 }
