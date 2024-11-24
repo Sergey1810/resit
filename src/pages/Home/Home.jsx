@@ -8,6 +8,7 @@ import Footer from '../../components/Footer/Footer'
 import Price from '../../components/Price/Price'
 import Work from '../../components/Work/Work'
 import Gallery from '../../components/Gallery/Gallery'
+import Problem from '../../components/Problem/Problem'
 import { ReactComponent as Gear }   from '../../images/иконки шестеренка 1.svg'
 
 
@@ -30,6 +31,7 @@ const Home = () => {
                 <About/>
                 <Gallery/>
                 <Price/>
+                <Problem/>
                 <Footer/>
             </div>
         </div>

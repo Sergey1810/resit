@@ -7,8 +7,9 @@
     overflow: hidden;
     background-image: url('../../images/glav1.png');
     background-repeat: no-repeat;
-   margin-top: 50px;
+    margin-top: 50px;
     background-size: cover;
+    background-position: center;
     height:450px ;
     
 }
@@ -94,13 +95,13 @@
    .baner__col-title{
     font-size: 60px;
     line-height: 64px;
-    margin-left: 40px;
+    margin-left: 15px;
     text-align: center;
    }
    .baner__col-subtitle{
     font-size: 26px;
     line-height: 28px;
-    padding-left: 40px;
+    padding-left: 15px;
     max-width: 360px;
    }
 }

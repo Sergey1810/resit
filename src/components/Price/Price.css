@@ -26,7 +26,7 @@
     padding: 0;
     margin: 0;
     padding: 5px 10px;
-    background: #636770;
+    background: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@
 }
 
 .price__table {
-    background: #636770;
+    background: #000000;
     min-width: 99%;
     border: 2px solid var(--color-orang);
     border-top: none;
@@ -79,6 +79,7 @@
 .price__table-name-item {
     color: rgb(255, 255, 255);
     min-width: 80%;
+    max-width: 80%;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
@@ -101,11 +102,12 @@
     letter-spacing: 5%;
     text-align: center;
     border: 1px solid grey;
+    border-top: none;
     border-right: none;
 }
 
 .price__table-price-item {
-    color: rgb(255, 255, 255);
+    color: var(--color-orang);
     min-width: 19%;
     font-size: 16px;
     font-weight: 500;
@@ -137,13 +139,14 @@
     }
     .price__list-items{
         min-height: 40px;
+        border:2px solid var(--color-orang) ;
     }
 
     .price__table{
         display: none;
     }
     .price__table_mobile{
-        background: #636770;
+        background: #000000;
         min-width: 99%;
         border: 2px solid var(--color-orang);
         border-top: none;

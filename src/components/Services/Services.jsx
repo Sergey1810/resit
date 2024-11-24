@@ -135,7 +135,7 @@ const Services = () => {
 
 
     return (
-        <div className='service'>
+        <section id='service' className='service'>
             <div className='service__row1'>
                 <h2 className='service__title'>НАШИ УСЛУГИ</h2>
             </div>
@@ -169,7 +169,7 @@ const Services = () => {
                     {service1.map(items => <p className='service__col2-service-items'>{items.title}</p>)}
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

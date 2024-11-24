@@ -1,14 +1,16 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
         <header className='header'>
             <div className='header__col1'>
-                <div className='header__logo'>
-
+               <Link to='/'>
+               <div className='header__logo'>
                 </div>
+               </Link> 
                 <Navbar />
             </div>
             <div className='header__col2'>

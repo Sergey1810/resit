@@ -35,7 +35,7 @@ const Footer = () => {
                     <div className='footer__column-string'> <BsTelephone className='footer__icons footer__icons-add' /><a href='tel:+79525569379' className='footer__link'> 8 952 55 69 379</a></div>
                     <div className='footer__column-string'> <GiRotaryPhone className='footer__icons footer__icons-add' /><a href='tel:+74737545569' className='footer__link'> 8 (47375) 4 55 69</a></div>
                     <div className='footer__column-string'> <SiMaildotru className='footer__icons footer__icons-add' /><a href="mailto:it-resurs@internet.ru" className='footer__link'>it-resurs@internet.ru</a></div>
-                    <div className='footer__column-string'><CiLocationOn className='footer__icons footer__icons-add' /><span> г. Острогожск, ул. Нарского 3</span></div>
+                    <div className='footer__column-string'><CiLocationOn className='footer__icons footer__icons-add' /><a href='https://yandex.ru/profile/-/CDx9UI37' className='footer__link'> г. Острогожск, ул. Нарского 3</a></div>
                 </div>
                 
             </div>
