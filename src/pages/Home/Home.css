@@ -3,6 +3,7 @@
     color: #ffffff;
     /* font-family: 'Lunasima'; */
     font-family: "Mulish";
+    position: relative;
 }
 
 .home__container {

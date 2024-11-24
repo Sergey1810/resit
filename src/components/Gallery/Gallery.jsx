@@ -190,7 +190,7 @@ const Gallery = () => {
                     <div className='gallery__button-right' onClick={goToBackPictureTwo}>
                         <FaAngleRight />
                     </div>
-                    <p className='gallery__grid-item-title'>Bios</p>
+                    <p className='gallery__grid-item-title'>Прошивка Bios</p>
                 </div>
 
 
