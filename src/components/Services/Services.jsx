@@ -17,19 +17,19 @@ const Services = () => {
         { id: 6, title: 'Установка/замена комплектующих ', price: '300р' },
         { id: 7, title: 'Прошивка BIOS материнской платы', price: '700р' },
         { id: 8, title: '_____________', price: '1000р' },
-        { id: 9, title: 'Диагностика', price: '1000р' }, 
+        { id: 9, title: 'Диагностика', price: '1000р' },
         { id: 10, title: 'Замена матрицы', price: '1400р' },
         { id: 11, title: 'Замена разъемов', price: '700р' },
         { id: 12, title: 'Восстановление Bios', price: '1400р' },
         { id: 14, title: 'Сборка/разборка ноутбука', price: '1500р' },
         { id: 13, title: 'Восстановление/ремонт корпуса', price: '2000р' },
         { id: 15, title: 'Установка/замена комплектующих', price: '1400р' },
-       
+
 
     ]
 
     const mapService2 = [
-        { id: 3, title: 'Замена матрицы', price: '1000р' }, 
+        { id: 3, title: 'Замена матрицы', price: '1000р' },
         { id: 1, title: 'Сборка/разборка', price: '1400р' },
         { id: 2, title: 'Диагностика без разборки', price: '700р' },
         { id: 7, title: 'Чистка от пыли с разборкой', price: '1400р' },
@@ -38,7 +38,7 @@ const Services = () => {
         { id: 8, title: 'Замена разъема питания/видео/аудио и другие', price: '700р' },
         { id: 6, title: 'Установка/замена комплектующих, полная разборка', price: '1400р' },
         { id: 5, title: 'Установка/замена комплектующих, чатичная разборка', price: '1000р' },
-       
+
     ]
     const mapService3 = [
         { id: 1, title: 'Ремонт принтера/МФУ', price: '350р' },
@@ -48,7 +48,7 @@ const Services = () => {
         { id: 5, title: 'Замена фотобарабана', price: '350р' },
 
 
-       
+
     ]
     const mapService4 = [
         { id: 1, title: 'Установка операционной системы', price: '1000р' },
@@ -61,15 +61,15 @@ const Services = () => {
         { id: 6, title: 'Установка и настройка оборудования на выезде', price: '700р' },
         { id: 5, title: 'Выезд специалиста по заявке', price: '500р' },
 
-      
+
         // { id: 7, title: 'Восстановление данных с носителя', price: '1000р' },
         // { id: 8, title: 'Сброс забытого пароля Windows', price: '500р' },
         // { id: 9, title: 'Установка драйвера на персональный компьютер', price: '500р' },
-       
-     
+
+
         // { id: 12, title: 'Настройка систем ЕГАИС, Честный знак(с лекарствами не работаем)', price: '1500р' },
         // { id: 13, title: 'Корректировка остатков ЕГАИС, ЧЗ', price: '3000р' },
-        
+
     ]
 
     const mapService5 = [
@@ -142,10 +142,24 @@ const Services = () => {
             <div className='service__table'>
                 <div className='service__col-service'>
                     <div className={`service__col-service-items ${one ? "service__col-service-items_active" : null}`} onClick={onClickService1}>Техническое обслуживание системного блока/ноутбука</div>
-                    <div className={`service__col-service-items ${five ? "service__col-service-items_active" : null}`}  onClick={onClickService5}>Ремонт техники </div>
-                    <div className={`service__col-service-items ${three ? "service__col-service-items_active" : null}`}  onClick={onClickService3}>Обслуживание оргтехники &nbsp;Заправка картриджей</div>
-                    <div className={`service__col-service-items ${four ? "service__col-service-items_active" : null}`}  onClick={onClickService4}>Компьютерные услуги &nbsp; Обслуживание на выезде</div>
-        
+                    <div className={`service__col2-service-mob ${one ?'service__col2-service-mobile':null}`}>
+                        {service1.map(items => <p className={`service__col2-service-items ${one ? "service__col2-service-items1_active" : null}`}>{items.title}</p>)}
+                    </div>
+                    <div className={`service__col-service-items ${five ? "service__col-service-items_active" : null}`} onClick={onClickService5}>Ремонт техники </div>
+                    <div className={`service__col2-service-mob ${five ?'service__col2-service-mobile':null}`}>
+                        {service1.map(items => <p className={`service__col2-service-items ${one ? "service__col2-service-items1_active" : null}`}>{items.title}</p>)}
+                    </div>
+
+                    <div className={`service__col-service-items ${three ? "service__col-service-items_active" : null}`} onClick={onClickService3}>Обслуживание оргтехники &nbsp;Заправка картриджей</div>
+
+                    <div className={`service__col2-service-mob ${three ?'service__col2-service-mobile':null}`}>
+                        {service1.map(items => <p className={`service__col2-service-items ${one ? "service__col2-service-items1_active" : null}`}>{items.title}</p>)}
+                    </div>
+
+                    <div className={`service__col-service-items ${four ? "service__col-service-items_active" : null}`} onClick={onClickService4}>Компьютерные услуги &nbsp; Обслуживание на выезде</div>
+                    <div className={`service__col2-service-mob ${four ?'service__col2-service-mobile':null}`}>
+                        {service1.map(items => <p className={`service__col2-service-items ${one ? "service__col2-service-items1_active" : null}`}>{items.title}</p>)}
+                    </div>
                     {/* <div className={`service__col-service-items ${four ? "service__col-service-items_active" : null}`}  onClick={onClickService4}>Работа с программным обеспечением и компьютерные услуги</div>
                      */}
                 </div>

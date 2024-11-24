@@ -99,6 +99,7 @@
 @media screen and (max-width:900px) {
   .work{
     max-width: 900px;
+    margin: 50px 20px;
   }
   .work__header{
     min-width: 100%;
@@ -106,7 +107,7 @@
     margin: 0 20px;
   }
   .work__header-line {
-    min-width: 25%;
+    min-width: 23%;
   }
   .work__header-title{
     padding: 0 10%;

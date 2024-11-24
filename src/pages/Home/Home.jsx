@@ -8,9 +8,8 @@ import Footer from '../../components/Footer/Footer'
 import Price from '../../components/Price/Price'
 import Work from '../../components/Work/Work'
 import Gallery from '../../components/Gallery/Gallery'
-import { HandySvg } from 'handy-svg'
 import { ReactComponent as Gear }   from '../../images/иконки шестеренка 1.svg'
-import gear1 from '../../images/иконка шесеренка 2.svg'
+
 
 const Home = () => {
     return (

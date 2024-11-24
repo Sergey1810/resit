@@ -116,6 +116,14 @@
     border-right: none;
 }
 
+.price__table_mobile{
+    display: none;
+}
+.price__mobile{
+    display: none;
+
+}
+
 @media screen and (max-width:940px){
     .price__list{
         flex-direction: column;
@@ -129,5 +137,27 @@
     }
     .price__list-items{
         min-height: 40px;
+    }
+
+    .price__table{
+        display: none;
+    }
+    .price__table_mobile{
+        background: #636770;
+        min-width: 99%;
+        border: 2px solid var(--color-orang);
+        border-top: none;
+        display: flex;
+        flex-direction: column;
+        min-height: 540px;
+    }
+    .price__table-name-items{
+        font-size: 14px;
+        line-height: 15px;
+        padding-left: 20px;
+        max-width: 90%;
+    }
+    .price__table-name-item{
+        max-width: 80%;
     }
  }

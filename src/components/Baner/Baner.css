@@ -92,12 +92,15 @@
     justify-content: center;
    }
    .baner__col-title{
-    font-size: 40px;
+    font-size: 60px;
+    line-height: 64px;
+    margin-left: 40px;
     text-align: center;
    }
    .baner__col-subtitle{
-    font-size: 16px;
-    padding-left: 25px;
+    font-size: 26px;
+    line-height: 28px;
+    padding-left: 40px;
     max-width: 360px;
    }
 }

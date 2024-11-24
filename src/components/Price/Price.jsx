@@ -26,7 +26,7 @@ const Price = () => {
         { id: 7, title: 'Чистка ноутбука от пыли с разборкой', price: 'от 1400' },
         { id: 8, title: 'Замена разъема питания/видео/аудио и другие', price: 'от 700' },
         { id: 9, title: 'Восстановление/ремонт корпуса ноутбука ', price: 'от 2000' },
-        
+
     ])
     const [po, setPo] = useState([
         { id: 1, title: 'Установка операционной системы Windows', price: 'от 1000' },
@@ -220,13 +220,159 @@ const Price = () => {
             <div>
                 <ul className='price__list'>
                     <li className={`price__list-items ${one ? "price__list-items_active" : null}`} onClick={onPriceClick1} id={1}>Техническое обслуживание системного блока</li>
+
+                    <div className={` price__mobile ${one ? "price__table_mobile" : null}`}>
+                        <div className='price__table-header'>
+                            <div className='price__table-name'>
+                                <p>Наименование работ</p>
+                            </div>
+                            <div className='price__table-price'>
+                                <p>Цена руб.</p>
+                            </div>
+                        </div>
+                        {price.map(item => <div key={item.id} className='price__table-info'>
+                            <div className='price__table-name-item'>
+                                <p className='price__table-name-items'>{item.title}</p>
+                            </div>
+                            <div className='price__table-price-item'>
+                                <p>{item.price}</p>
+                            </div>
+                        </div>)}
+                    </div>
+
                     <li className={`price__list-items ${two ? "price__list-items_active" : null}`} onClick={onPriceClick2} id={2}>Техническое обслуживание ноутбука</li>
+                    <div className={` price__mobile ${two ? "price__table_mobile" : null}`}>
+                        <div className='price__table-header'>
+                            <div className='price__table-name'>
+                                <p>Наименование работ</p>
+                            </div>
+                            <div className='price__table-price'>
+                                <p>Цена руб.</p>
+                            </div>
+                        </div>
+                        {price.map(item => <div key={item.id} className='price__table-info'>
+                            <div className='price__table-name-item'>
+                                <p className='price__table-name-items'>{item.title}</p>
+                            </div>
+                            <div className='price__table-price-item'>
+                                <p>{item.price}</p>
+                            </div>
+                        </div>)}
+                    </div>
                     <li className={`price__list-items ${three ? "price__list-items_active" : null}`} onClick={onPriceClick3} id={3}>Работа с программным обеспечением</li>
+                    <div className={` price__mobile ${three ? "price__table_mobile" : null}`}>
+                        <div className='price__table-header'>
+                            <div className='price__table-name'>
+                                <p>Наименование работ</p>
+                            </div>
+                            <div className='price__table-price'>
+                                <p>Цена руб.</p>
+                            </div>
+                        </div>
+                        {price.map(item => <div key={item.id} className='price__table-info'>
+                            <div className='price__table-name-item'>
+                                <p className='price__table-name-items'>{item.title}</p>
+                            </div>
+                            <div className='price__table-price-item'>
+                                <p>{item.price}</p>
+                            </div>
+                        </div>)}
+                    </div>
                     <li className={`price__list-items ${four ? "price__list-items_active" : null}`} onClick={onPriceClick4} id={4}>Обслуживание на выезде</li>
+                    <div className={` price__mobile ${four ? "price__table_mobile" : null}`}>
+                        <div className='price__table-header'>
+                            <div className='price__table-name'>
+                                <p>Наименование работ</p>
+                            </div>
+                            <div className='price__table-price'>
+                                <p>Цена руб.</p>
+                            </div>
+                        </div>
+                        {price.map(item => <div key={item.id} className='price__table-info'>
+                            <div className='price__table-name-item'>
+                                <p className='price__table-name-items'>{item.title}</p>
+                            </div>
+                            <div className='price__table-price-item'>
+                                <p>{item.price}</p>
+                            </div>
+                        </div>)}
+                    </div>
                     <li className={`price__list-items ${five ? "price__list-items_active" : null}`} onClick={onPriceClick5} id={5}>Обслуживание принтеров и МФУ</li>
+                    <div className={`price__mobile ${five ? "price__table_mobile" : null}`}>
+                        <div className='price__table-header'>
+                            <div className='price__table-name'>
+                                <p>Наименование работ</p>
+                            </div>
+                            <div className='price__table-price'>
+                                <p>Цена руб.</p>
+                            </div>
+                        </div>
+                        {price.map(item => <div key={item.id} className='price__table-info'>
+                            <div className='price__table-name-item'>
+                                <p className='price__table-name-items'>{item.title}</p>
+                            </div>
+                            <div className='price__table-price-item'>
+                                <p>{item.price}</p>
+                            </div>
+                        </div>)}
+                    </div>
                     <li className={`price__list-items ${six ? "price__list-items_active" : null}`} onClick={onPriceClick6} id={6}>Компьютерные услуги</li>
+                    <div className={` price__mobile ${six ? "price__table_mobile" : null}`}>
+                        <div className='price__table-header'>
+                            <div className='price__table-name'>
+                                <p>Наименование работ</p>
+                            </div>
+                            <div className='price__table-price'>
+                                <p>Цена руб.</p>
+                            </div>
+                        </div>
+                        {price.map(item => <div key={item.id} className='price__table-info'>
+                            <div className='price__table-name-item'>
+                                <p className='price__table-name-items'>{item.title}</p>
+                            </div>
+                            <div className='price__table-price-item'>
+                                <p>{item.price}</p>
+                            </div>
+                        </div>)}
+                    </div>
                     <li className={`price__list-items ${seven ? "price__list-items_active" : null}`} onClick={onPriceClick7} id={7}>Ремонт прочей техники</li>
+                    <div className={`price__mobile ${seven ? "price__table_mobile" : null}`}>
+                        <div className='price__table-header'>
+                            <div className='price__table-name'>
+                                <p>Наименование работ</p>
+                            </div>
+                            <div className='price__table-price'>
+                                <p>Цена руб.</p>
+                            </div>
+                        </div>
+                        {price.map(item => <div key={item.id} className='price__table-info'>
+                            <div className='price__table-name-item'>
+                                <p className='price__table-name-items'>{item.title}</p>
+                            </div>
+                            <div className='price__table-price-item'>
+                                <p>{item.price}</p>
+                            </div>
+                        </div>)}
+                    </div>
                     <li className={`price__list-items ${eight ? "price__list-items_active" : null}`} onClick={onPriceClick8} id={8}>Заправка и востановление картриджей</li>
+                    <div className={`price__mobile ${eight ? "price__table_mobile" : null}`}>
+                        <div className='price__table-header'>
+                            <div className='price__table-name'>
+                                <p>Наименование работ</p>
+                            </div>
+                            <div className='price__table-price'>
+                                <p>Цена руб.</p>
+                            </div>
+                        </div>
+                        {price.map(item => <div key={item.id} className='price__table-info'>
+                            <div className='price__table-name-item'>
+                                <p className='price__table-name-items'>{item.title}</p>
+                            </div>
+                            <div className='price__table-price-item'>
+                                <p>{item.price}</p>
+                            </div>
+                        </div>)}
+                    </div>
                 </ul>
                 <div className='price__table'>
                     <div className='price__table-header'>

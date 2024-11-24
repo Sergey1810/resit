@@ -79,8 +79,28 @@
 @media screen and (max-width:900px){
     .footer__columns{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         gap: 30px;
+    }
+
+    .footer__column{
+        gap: 60px;
+        margin: 0 auto;
+    }
+
+    .footer__column-social{
+        gap: 60px;
+    }
+    .footer__icons{
+        width: 60px;
+        height: 60px;
+    }
+    .footer__icons-add{
+        width: 30px;
+        height: 30px;
+    }
+    .footer__column2{
+        justify-content: start;
+        align-items: start;
+        margin-left: 30px;
     }
  }
