@@ -1,21 +1,32 @@
 {
   "files": {
-    "main.css": "/resit/static/css/main.4af1074b.css",
-    "main.js": "/resit/static/js/main.057e8028.js",
+    "main.css": "/resit/static/css/main.55267b7f.css",
+    "main.js": "/resit/static/js/main.790d2371.js",
     "static/js/453.7aa1f57f.chunk.js": "/resit/static/js/453.7aa1f57f.chunk.js",
     "static/media/glav1.png": "/resit/static/media/glav1.7aa877defd944cfbe252.png",
-    "static/media/3.png": "/resit/static/media/3.85ce2cc8963446a5a90f.png",
-    "static/media/1.png": "/resit/static/media/1.6534122fa74fa2f3fa02.png",
-    "static/media/2.png": "/resit/static/media/2.4bf2534555ad55ae04a2.png",
+    "static/media/2p.png": "/resit/static/media/2p.44c35ac2a9b04fe3b6e5.png",
+    "static/media/4Ch.png": "/resit/static/media/4Ch.16ad480fa3e4061c0235.png",
+    "static/media/3p.png": "/resit/static/media/3p.8037d9438f0f3946681d.png",
+    "static/media/4.png": "/resit/static/media/4.f3b5533755546e91e7a9.png",
+    "static/media/4p.png": "/resit/static/media/4p.247e5060d8dad1e72f70.png",
+    "static/media/2Ch.png": "/resit/static/media/2Ch.462ecde0ea5b89bcd4de.png",
+    "static/media/2b.png": "/resit/static/media/2b.5a5026b27b9881a92def.png",
+    "static/media/1Ch.png": "/resit/static/media/1Ch.9f03e50c613209c900b3.png",
+    "static/media/3.png": "/resit/static/media/3.28383c68124611577890.png",
+    "static/media/3Ch.png": "/resit/static/media/3Ch.acc2d6e85e5f9602c0d1.png",
+    "static/media/2.png": "/resit/static/media/2.82ea70e92497fccda82f.png",
+    "static/media/1b.png": "/resit/static/media/1b.1aebf481301b33575f41.png",
+    "static/media/1p.png": "/resit/static/media/1p.dc984e6eb506e7b90979.png",
+    "static/media/1.png": "/resit/static/media/1.05028633e10f724a7f72.png",
     "static/media/Resurs логотип 500x500  пикс (1).png": "/resit/static/media/Resurs логотип 500x500  пикс (1).591cebb626778f4aed1a.png",
     "static/media/иконки шестеренка 1.svg": "/resit/static/media/иконки шестеренка 1.56c53c06c89077fc1484cbe5f42f7143.svg",
     "index.html": "/resit/index.html",
-    "main.4af1074b.css.map": "/resit/static/css/main.4af1074b.css.map",
-    "main.057e8028.js.map": "/resit/static/js/main.057e8028.js.map",
+    "main.55267b7f.css.map": "/resit/static/css/main.55267b7f.css.map",
+    "main.790d2371.js.map": "/resit/static/js/main.790d2371.js.map",
     "453.7aa1f57f.chunk.js.map": "/resit/static/js/453.7aa1f57f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4af1074b.css",
-    "static/js/main.057e8028.js"
+    "static/css/main.55267b7f.css",
+    "static/js/main.790d2371.js"
   ]
 }
