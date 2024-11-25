@@ -1,31 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { FaAngleLeft } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
-
 import debounce from 'lodash.debounce'
 import './Problem.css'
 
-
-
-
 const Problem = () => {
-
-    // Часто задаваемые вопросы
-    // 2 Как долго длится ремонт?
-    // Срок ремонта зависит от сложности поломки и наличия необходимых запчастей. Обычно ремонт занимает от нескольких часов до нескольких дней.
-    // Какие гарантии вы предоставляете?
-    // Мы предоставляем гарантию на все выполненные нами работы. На запчасти гарантия от магазина. Срок гарантии может варьироваться в зависимости от типа ремонта.
-    // Можно ли принести свою запчасть?
-    // Да, вы можете принести свою запчасть, если она подходит по техническим характеристикам. Однако мы не даем гарантию на ваши детали.
-    // Как я могу узнать стоимость ремонта?
-    // Стоимость ремонта определяется после проведения диагностики. Мы сообщим вам стоимость до начала работ. Если цена ремонта будет до 1500 р мы не согласовываем ремонт.
-    // 1 Как я могу связаться с вами для консультации?
-    // Вы можете позвонить нам по телефону или оставить заявку на нашем сайте. Мы оперативно свяжемся с вами для уточнения всех деталей.
-    // Какие документы я получу после ремонта?
-    // После завершения ремонта вы получите акт выполненных работ и гарантийный талон.
-    // Как я могу оплатить ремонт?
-    // Вы можете оплатить ремонт наличными, банковской картой или через платежные системы.
-    // Эти ответы помогут вам лучше понять процесс работы компьютерной мастерской и получить необходимую информацию для комфортного взаимодействия с нашими специалистами.
 
     const problem = [
         {
@@ -51,10 +30,7 @@ const Problem = () => {
         },
 
     ]
-    // const ref = useRef(null);
-    // const scroll = (scrollOffset) => {
-    //     ref.current.scrollLeft += scrollOffset;
-    //   };
+
     const [canScrollLeft, setCanScrollLeft] = useState(false);
     const [canScrollRight, setCanScrollRight] = useState(false);
 
@@ -92,24 +68,19 @@ const Problem = () => {
                 <h2 className='problem__header-title'>Часто задаваемые вопросы</h2>
                 <div className='problem__header-line'></div>
             </div>
-
-           
             <div className='problem__scrollbar' ref={listRef}>
-
                 {
                     problem.map(item => <div key={item.id} className='problem__scrollbar-item'>
                         <p className='problem__title'>{item.title}</p>
                         <p className='problem__lable'>{item.lable}</p>
                     </div>)
                 }
-
-
             </div>
             <button
                 className='problem__leftBtn'
                 type="button"
                 disabled={!canScrollLeft}
-                onClick={() => scrollContainerBy(-500)}
+                onClick={() => scrollContainerBy(-282)}
             >
                 <FaAngleLeft />
             </button>
@@ -117,12 +88,11 @@ const Problem = () => {
                 className='problem__rightBtn'
                 type="button"
                 disabled={!canScrollRight}
-                onClick={() => scrollContainerBy(500)}
+                onClick={() => scrollContainerBy(282)}
             >
                 <FaAngleRight />
             </button>
-            {/* <button onClick={() => scroll(-400)}>LEFT</button>
-            <button onClick={() => scroll(400)}>RIGHT</button> */}
+            
 
         </section>
     )

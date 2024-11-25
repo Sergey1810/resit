@@ -74,12 +74,12 @@
     height: 300px;
     border: 2px solid #FFFFFF;
     padding: 20px;
-    font-size: 2rem;
+    font-size: 20px;
     flex-shrink: 0;
 }
 
 .problem__scrollbar-item:not(:last-child) {
-    margin-right: 1em;
+    margin-right: 0px;
 }
 
 .problem__leftBtn {
@@ -90,7 +90,7 @@
     background-color: transparent;
     position: absolute;
     top: 50%;
-    left: 20px;
+    left: 10px;
     z-index: 20;
     font-size: 50px;
 }
@@ -103,14 +103,14 @@
     background-color: transparent;
     position: absolute;
     top: 50%;
-    right: 20px;
+    right: 10px;
     z-index: 20;
     font-size: 50px;
 }
 
 @media screen and (max-width:1040px){
     .problem__scrollbar-item{
-        width: 200px;
+        width: 198px;
         height: 250px;
     }
     .problem__lable{
@@ -122,7 +122,10 @@
         padding-top: 10px;
         font-size: 24px;
         line-height: 26px;
-      
+    }
+
+    .problem__scrollbar-item:last-child{
+        margin-right: 70px;
     }
 
     .problem__header{
@@ -138,6 +141,10 @@
         font-size: 24px;
         line-height: 26px;
       }
+      .problem__scrollbar{
+        margin-left:20px;
+        margin-right: 0%; 
+      }
 }
 
 @media screen and (max-width:600px){
@@ -151,7 +158,8 @@
         min-width: 10%;
       }
       .problem__scrollbar{
-        margin: 0 10px;
+        margin-left:20%;
+        margin-right: 0%; 
       }
 
 }
