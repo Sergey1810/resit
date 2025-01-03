@@ -1,7 +1,7 @@
 {
   "name": "resit",
   "version": "0.1.0",
-  "homepage": "https://sergey1810.github.io/resit/",
+  "homepage": "http://lepis93mai.temp.swtest.ru/",
   "private": true,
   "dependencies": {
     "@pbe/react-yandex-maps": "^1.2.5",

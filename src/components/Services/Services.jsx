@@ -93,14 +93,14 @@ const Services = () => {
     }
 
 
-    const onClickService2 = () => {
-        setService1(mapService2)
-        setOne(false)
-        setTwo(true)
-        setThree(false)
-        setFour(false)
-        setFive(false)
-    }
+    // const onClickService2 = () => {
+    //     setService1(mapService2)
+    //     setOne(false)
+    //     setTwo(true)
+    //     setThree(false)
+    //     setFour(false)
+    //     setFive(false)
+    // }
 
 
     const onClickService3 = () => {

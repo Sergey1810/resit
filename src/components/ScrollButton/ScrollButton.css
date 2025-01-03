@@ -1,4 +1,5 @@
 .scrollbtn {
+    display: none;
     position: fixed;
     width: 100%;
     left: 90%;
@@ -16,6 +17,7 @@
 
 @media screen and (max-width:800px) {
     .scrollbtn {
+        display: block;
         font-size: 3rem;
         left: 85%;
     }

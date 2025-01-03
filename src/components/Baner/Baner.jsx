@@ -1,6 +1,6 @@
 import React from 'react'
 import './Baner.css'
-import logo from "../../images/glav1.png"
+
 
 const Baner = () => {
     return (
