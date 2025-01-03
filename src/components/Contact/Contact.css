@@ -92,7 +92,14 @@
     text-decoration: none;
     color: inherit;
 }
+@media screen and (max-width:1200px) {
 
+    .contact{
+      padding: 0 10px;
+    }
+
+   
+}
 @media screen and (max-width:1000px) {
 
     .contact__map {

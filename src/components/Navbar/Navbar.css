@@ -19,6 +19,7 @@
 }
 
 .navbar__link-items {
+    margin: 0;
     color: inherit;
     text-decoration: none;
 }
@@ -32,7 +33,6 @@
 }
 
 .navbar__close {
-
     display: none;
 }
 
@@ -42,6 +42,29 @@
     right: 20px;
     display: block;
     z-index: 101;
+}
+
+.navbar__info{
+    display: none;
+}
+
+.navbar__info_active{
+    display: block;
+    position: absolute;
+    max-width: 180px;
+    top: 500px;
+    left: calc(50% - 90px);
+    z-index: 120;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 5%;
 }
 
 @media screen and (max-width:900px) {

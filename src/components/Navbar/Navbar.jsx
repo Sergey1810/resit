@@ -20,8 +20,10 @@ const onOpen=()=>{
         <li className='navbar__link'><Link to='#gallery' className='navbar__link-items'>Работы</Link></li>
         <li className='navbar__link'><Link to='#contact' className='navbar__link-items'>Контакты</Link></li>
         {/* <HashLink to="/home#price">to</HashLink> */}
-
+        <p className={`navbar__close  ${active?'navbar__info_active':null}`}>8 952 556 93 79 <br/>На связи с 8:00 до 18:00</p>
+       
       </ul>
+     
       <img src={burger} alt="меню" className='navbar__burger' onClick={onOpen}/>
       <img src={close} alt="меню" className={`navbar__close  ${active?'navbar__close_active':null}`} onClick={onOpen}/>
     </>

@@ -45,7 +45,7 @@ const Problem = () => {
         }
     };
 
-    const debounceCheckForScrollPosition = debounce(checkForScrollPosition, 200);
+    const debounceCheckForScrollPosition = debounce(checkForScrollPosition, 100);
 
     const scrollContainerBy = (distance) =>
         listRef.current?.scrollBy({ left: distance, behavior: "smooth" });
