@@ -9,7 +9,7 @@ import Price from '../../components/Price/Price'
 import Work from '../../components/Work/Work'
 import Gallery from '../../components/Gallery/Gallery'
 import Problem from '../../components/Problem/Problem'
-// import { ReactComponent as Gear }   from '../../images/иконки шестеренка 1.svg'
+ import { ReactComponent as Gear }   from '../../images/иконки шестеренка 1.svg'
 import Contact from '../../components/Contact/Contact'
 import ScrollButton from '../../components/ScrollButton/ScrollButton'
 
@@ -17,12 +17,13 @@ import ScrollButton from '../../components/ScrollButton/ScrollButton'
 const Home = () => {
     return (
         <div className='home'>
-{/*               
+              
          <Gear className='home__gear1' />
          <Gear className='home__gear2' />
          <Gear className='home__gear3' />
+         <Gear className='home__gear4' />
       
-      */}
+     
                 
             
             <div className='home__container'>

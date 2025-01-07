@@ -29,7 +29,7 @@ const Footer = () => {
                     <div className='footer__column-string'>Пн - Чт: 8:00 - 18:00 </div>
                     <div className='footer__column-string'>Пт: 8:00 - 17:00</div>
                     <div className='footer__column-string'>Сб: 8:00 - 14:00</div>
-                    <div className='footer__column-string'>Сб: прием и выдача техники</div>
+                    <div className='footer__column-string'>Сб: приём и выдача техники</div>
                 </div>
                 <div className='footer__column2'>
                     <div className='footer__column-string'> <BsTelephone className='footer__icons footer__icons-add' /><a href='tel:+79525569379' className='footer__link'> 8 952 55 69 379</a></div>

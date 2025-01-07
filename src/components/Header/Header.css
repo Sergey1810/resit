@@ -1,5 +1,4 @@
 .header {
-  
     display: flex;
     justify-content: space-between;
     max-width: 1280px;
@@ -21,7 +20,7 @@
 }
 
 .header__col2 {
-    padding-top: 50px;
+    padding-top: 35px;
     display: flex;
     flex-direction: column;
 }
@@ -64,7 +63,7 @@
         display: none;
     }
     .header__col1{
-        position: fixed;
+        
         min-width: 100vw;
         gap: none;
         justify-content: space-between;

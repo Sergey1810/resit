@@ -109,25 +109,12 @@
 }
 
 @media screen and (max-width:1040px){
-    .problem__scrollbar-item{
-        width: 198px;
-        height: 250px;
-    }
-    .problem__lable{
-        padding-top: 10px;
-        font-size: 14px;
-        line-height: 16px;
-    }
+
     .problem__title{
         padding-top: 10px;
         font-size: 24px;
         line-height: 26px;
     }
-
-    .problem__scrollbar-item:last-child{
-        margin-right: 70px;
-    }
-
     .problem__header{
         max-width: 100%;
         justify-content: space-between;
@@ -141,6 +128,22 @@
         font-size: 24px;
         line-height: 26px;
       }
+      .problem__lable{
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+
+
+
+    .problem__scrollbar-item{
+        width: 198px;
+        height: 250px;
+    }
+    .problem__scrollbar-item:last-child{
+        margin-right: 70px;
+    }
       .problem__scrollbar{
         margin-left:20px;
         margin-right: 0%; 

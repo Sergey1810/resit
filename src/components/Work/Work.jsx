@@ -11,7 +11,7 @@ const Work = () => {
             </div>
             <div className='work__grid'>
                 <div className="work__grid-item work__grid-item_item1">
-                    <span className='work__grid-item-info-number'>1</span><p className='work__grid-item-info'>Принимаем технику в ремонт и выдаём квитанцию о приемке техники</p>
+                    <span className='work__grid-item-info-number'>1</span><p className='work__grid-item-info'>Принимаем технику в ремонт и выдаём квитанцию о приёмке техники</p>
                 </div>
                 <div className="work__grid-item work__grid-item_item2">
                     <span className='work__grid-item-info-number'>2</span><p className='work__grid-item-info'>Мастер проводит диагностику устройства</p>

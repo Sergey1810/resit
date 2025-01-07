@@ -162,7 +162,8 @@
 
     .price__table_mobile {
         background: #000000;
-        min-width: 99%;
+        min-width: 90vw;
+        max-width: 90vw;
         border: 2px solid var(--color-orang);
         border-top: none;
         display: flex;

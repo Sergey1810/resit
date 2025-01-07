@@ -1,7 +1,7 @@
 {
   "name": "resit",
   "version": "0.1.0",
-  "homepage": "http://lepis93mai.temp.swtest.ru/",
+  "homepage": "http://it-resurs.pro/",
   "private": true,
   "dependencies": {
     "@pbe/react-yandex-maps": "^1.2.5",
