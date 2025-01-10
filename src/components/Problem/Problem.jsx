@@ -31,35 +31,35 @@ const Problem = () => {
 
     ]
 
-    const [canScrollLeft, setCanScrollLeft] = useState(false);
-    const [canScrollRight, setCanScrollRight] = useState(false);
+    // const [canScrollLeft, setCanScrollLeft] = useState(false);
+    // const [canScrollRight, setCanScrollRight] = useState(false);
 
-    const listRef = useRef(null);
+    // const listRef = useRef(null);
 
-    const checkForScrollPosition = () => {
-        const { current } = listRef;
-        if (current) {
-            const { scrollLeft, scrollWidth, clientWidth } = current;
-            setCanScrollLeft(scrollLeft > 0);
-            setCanScrollRight(scrollLeft !== scrollWidth - clientWidth);
-        }
-    };
+    // const checkForScrollPosition = () => {
+    //     const { current } = listRef;
+    //     if (current) {
+    //         const { scrollLeft, scrollWidth, clientWidth } = current;
+    //         setCanScrollLeft(scrollLeft > 0);
+    //         setCanScrollRight(scrollLeft !== scrollWidth - clientWidth);
+    //     }
+    // };
 
-    const debounceCheckForScrollPosition = debounce(checkForScrollPosition, 100);
+    // const debounceCheckForScrollPosition = debounce(checkForScrollPosition, 100);
 
-    const scrollContainerBy = (distance) =>
-        listRef.current?.scrollBy({ left: distance, behavior: "smooth" });
+    // const scrollContainerBy = (distance) =>
+    //     listRef.current?.scrollBy({ left: distance, behavior: "smooth" });
 
-    useEffect(() => {
-        const { current } = listRef;
-        checkForScrollPosition();
-        current?.addEventListener("scroll", debounceCheckForScrollPosition);
+    // useEffect(() => {
+    //     const { current } = listRef;
+    //     checkForScrollPosition();
+    //     current?.addEventListener("scroll", debounceCheckForScrollPosition);
 
-        return () => {
-            current?.removeEventListener("scroll", debounceCheckForScrollPosition);
-            debounceCheckForScrollPosition.cancel();
-        };
-    }, []);
+    //     return () => {
+    //         current?.removeEventListener("scroll", debounceCheckForScrollPosition);
+    //         debounceCheckForScrollPosition.cancel();
+    //     };
+    // }, []);
 
     return (
         <section className='problem'>
@@ -68,7 +68,7 @@ const Problem = () => {
                 <h2 className='problem__header-title'>Часто задаваемые вопросы</h2>
                 <div className='problem__header-line'></div>
             </div>
-            <div className='problem__scrollbar' ref={listRef}>
+            <div className='problem__items' >
                 {
                     problem.map(item => <div key={item.id} className='problem__scrollbar-item'>
                         <p className='problem__title'>{item.title}</p>
@@ -76,23 +76,8 @@ const Problem = () => {
                     </div>)
                 }
             </div>
-            <button
-                className='problem__leftBtn'
-                type="button"
-                disabled={!canScrollLeft}
-                onClick={() => scrollContainerBy(-282)}
-            >
-                <FaAngleLeft />
-            </button>
-            <button
-                className='problem__rightBtn'
-                type="button"
-                disabled={!canScrollRight}
-                onClick={() => scrollContainerBy(282)}
-            >
-                <FaAngleRight />
-            </button>
-            
+         
+           
 
         </section>
     )

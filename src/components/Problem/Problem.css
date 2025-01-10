@@ -1,5 +1,4 @@
 .problem {
-
     max-width: 1280px;
     margin: 60px auto;
     margin-top: 100px;
@@ -7,7 +6,7 @@
     text-align: center;
 }
 
-.problem__header-title{
+.problem__header-title {
     color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: 400;
@@ -19,12 +18,14 @@
     margin: 0;
     padding: 0 190px;
 }
-.problem__header{
+
+.problem__header {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
 }
-.problem__header-line{
+
+.problem__header-line {
     border: 2px solid var(--color-orang);
     margin-top: 20px;
     min-width: 203px;
@@ -45,12 +46,19 @@
 .problem__lable {
     margin: 0;
     padding: 0;
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: left;
     font-size: 20px;
     line-height: 22px;
     font-weight: 400;
     color: lightgray;
+}
+
+.problem__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .problem__scrollbar {
@@ -65,93 +73,60 @@
 }
 
 .problem__scrollbar-item {
-    margin-top: 50px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    width: 250px;
-    height: 300px;
-    border: 2px solid #FFFFFF;
-    padding: 20px;
+    width: 100%;
+    padding: 10px;
     font-size: 20px;
     flex-shrink: 0;
 }
 
-.problem__scrollbar-item:not(:last-child) {
-    margin-right: 0px;
-}
 
-.problem__leftBtn {
-    padding: 0;
-    border: none;
-    font: inherit;
-    color: inherit;
-    background-color: transparent;
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    z-index: 20;
-    font-size: 50px;
-}
+@media screen and (max-width:1300px) {
 
-.problem__rightBtn {
-    padding: 0;
-    border: none;
-    font: inherit;
-    color: inherit;
-    background-color: transparent;
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    z-index: 20;
-    font-size: 50px;
-}
-
-@media screen and (max-width:1040px){
-
-    .problem__title{
+    .problem__title {
         padding-top: 10px;
         font-size: 24px;
         line-height: 26px;
     }
-    .problem__header{
+
+    .problem__header {
         max-width: 100%;
         justify-content: space-between;
         margin: 0 20px;
-      }
-      .problem__header-line {
+    }
+
+    .problem__header-line {
         min-width: 20%;
-      }
-      .problem__header-title{
+    }
+
+    .problem__header-title {
         padding: 0 10%;
         font-size: 24px;
         line-height: 26px;
-      }
-      .problem__lable{
+    }
+
+    .problem__lable {
         padding-top: 10px;
         font-size: 14px;
         line-height: 16px;
     }
 
-
-
-
-    .problem__scrollbar-item{
-        width: 198px;
-        height: 250px;
+    .problem__scrollbar-item {
+        width: 90%;
     }
-    .problem__scrollbar-item:last-child{
-        margin-right: 70px;
+
+    .problem__scrollbar {
+        margin-left: 20px;
+        margin-right: 0%;
     }
-      .problem__scrollbar{
-        margin-left:20px;
-        margin-right: 0%; 
-      }
 }
 
-@media screen and (max-width:600px){
-    .problem__title{
+@media screen and (max-width:600px) {
+    .problem__title {
         padding-top: 10px;
         font-size: 18px;
         line-height: 20px;
@@ -159,10 +134,7 @@
 
     .problem__header-line {
         min-width: 10%;
-      }
-      .problem__scrollbar{
-        margin-left:20%;
-        margin-right: 0%; 
-      }
+    }
+
 
 }
