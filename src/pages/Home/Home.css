@@ -12,12 +12,12 @@
 
 .home__gear1 {
     position: absolute;
-    left: -210px;
+    left: 210px;
     top: 1500px;
     color: #ffffff;
     fill: #ffffff;
-    width: 500px;
-    height: 500px;
+    width: 100px;
+    height: 100px;
     z-index: 1;
     opacity: 0.4;
     animation: circle 16s linear;
@@ -34,8 +34,8 @@
     height: 100px;
     z-index: 1;
     opacity: 0.4;
-    /* animation: circles 16s linear;
-    animation-iteration-count: infinite; */
+    animation: circles 16s linear;
+    animation-iteration-count: infinite;
 }
 
 .home__gear3 {

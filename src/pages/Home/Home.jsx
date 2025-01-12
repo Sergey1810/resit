@@ -20,8 +20,8 @@ const Home = () => {
               
          <Gear className='home__gear1' />
          <Gear className='home__gear2' />
-         <Gear className='home__gear3' />
-         <Gear className='home__gear4' />
+         {/* <Gear className='home__gear3' />
+         <Gear className='home__gear4' /> */}
       
      
                 

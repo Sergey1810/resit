@@ -1,7 +1,7 @@
 .contact {
     background-color: #000000;
     color: #fff;
-    margin-top: 70px;
+    margin-top: 0px;
 
 }
 
@@ -9,7 +9,7 @@
     max-width: 1280px;
     margin: 0 auto;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,6 +89,7 @@
     font-weight: 600;
     text-decoration: none;
     color: inherit;
+    color: var(--color-orang);
 }
 @media screen and (max-width:1200px) {
 
@@ -133,8 +134,8 @@
     }
     .contact__header-title {
         padding-top: 10px;
-        font-size: 18px;
-        line-height: 20px;
+        font-size: 24px;
+        line-height: 26px;
     }
     .contact__title{
         padding-top: 10px;
@@ -145,5 +146,12 @@
         padding-top: 10px;
         font-size: 18px;
         line-height: 20px;
+    }
+    .contact__container{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .contact{
+        margin-top: 60px;
     }
 }

@@ -111,6 +111,10 @@
         grid-template-columns: repeat(1, 300px);
     }
 
+    .gallery__header-line {
+        min-width: 20%;
+    }
+
 }
 
 @media screen and (max-width:370px) {
@@ -119,6 +123,7 @@
         font-size: 18px;
         line-height: 20px;
     }
+  
 
 }
 
