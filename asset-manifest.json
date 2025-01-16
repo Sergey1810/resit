@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9ec4b163.css",
-    "main.js": "/static/js/main.5aecbc6a.js",
+    "main.js": "/static/js/main.dff2f4a0.js",
     "static/js/453.7aa1f57f.chunk.js": "/static/js/453.7aa1f57f.chunk.js",
     "static/media/glav1.png": "/static/media/glav1.e79e8f5ce2f640a0ce0d.png",
     "static/media/2p.png": "/static/media/2p.44c35ac2a9b04fe3b6e5.png",
@@ -23,11 +23,11 @@
     "static/media/иконки шестеренка 1.svg": "/static/media/иконки шестеренка 1.56c53c06c89077fc1484cbe5f42f7143.svg",
     "static/media/close.svg": "/static/media/close.ad98de32e342afafa1187ccb39ed5116.svg",
     "main.9ec4b163.css.map": "/static/css/main.9ec4b163.css.map",
-    "main.5aecbc6a.js.map": "/static/js/main.5aecbc6a.js.map",
+    "main.dff2f4a0.js.map": "/static/js/main.dff2f4a0.js.map",
     "453.7aa1f57f.chunk.js.map": "/static/js/453.7aa1f57f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ec4b163.css",
-    "static/js/main.5aecbc6a.js"
+    "static/js/main.dff2f4a0.js"
   ]
 }
